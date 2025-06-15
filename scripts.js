@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <img src="${item.logo || ''}" alt="${item.company || ''}" class="voices__card-logo-img">
             </div>
             <p class="voices__card-description">${item.description || ''}</p>
-            <img src="/images/quotes.jpg" alt="Quotes" class="voices__card-quotes">
+            <img src="./images/quotes.jpg" alt="Quotes" class="voices__card-quotes">
             <div class="voices__card-author">
               <img src="${item.image || ''}" alt="${item.author || ''}" class="voices__card-author-image">
               <div class="voices__card-author-info">
